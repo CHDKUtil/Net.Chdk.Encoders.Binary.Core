@@ -3,6 +3,5 @@
     public interface IBinaryEncoder
     {
         void Encode(byte[] decBuffer, byte[] encBuffer, uint offsets);
-        int MaxVersion { get; }
     }
 }

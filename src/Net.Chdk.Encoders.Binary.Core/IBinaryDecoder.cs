@@ -2,8 +2,7 @@
 {
     public interface IBinaryDecoder
     {
-        bool ValidatePrefix(byte[] encBuffer, int size);
+        bool ValidatePrefix(byte[] encBuffer, int size, byte[] prefix);
         void Decode(byte[] encBuffer, byte[] decBuffer, uint offsets);
-        int MaxVersion { get; }
     }
 }
