@@ -2,14 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Description>CHIMP binary encoder/decoder API</Description>
     <AssemblyName>Net.Chdk.Encoders.Binary.Core</AssemblyName>
     <RootNamespace>Net.Chdk.Encoders.Binary</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <VersionSuffix>alpha</VersionSuffix>
     <Product>CHIMP</Product>
     <Authors>Dmitry Shechtman</Authors>
